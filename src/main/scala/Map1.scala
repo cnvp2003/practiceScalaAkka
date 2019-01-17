@@ -1,5 +1,5 @@
 
-object Map {
+object Map1 {
 
   def main(args: Array[String]): Unit = {
     val xs = Seq(Seq("a", "b", "c"), Seq("d", "e", "f"), Seq("g", "h"), Seq("i", "j", "k"))

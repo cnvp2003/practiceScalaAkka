@@ -11,7 +11,7 @@ case class Jazz(artist: String) extends AllKindsOfMusic
 case class Electronic(artist: String) extends AllKindsOfMusic
 
 
-//Listner (Subscriber)
+//Listener (Subscriber)
 class Listener extends Actor {
   def receive = {
     case m: Jazz ⇒ println(s"${self.path.name} is listening to: ${m.artist}")
@@ -19,7 +19,7 @@ class Listener extends Actor {
   }
 }
 
-
+//Pub-Sub model
 object EventTest extends App {
   val system = ActorSystem("EventBus")
 

@@ -1,4 +1,4 @@
-# PracticeScalaAkka
+# practiceScalaAkka
 ## This is practice repository.
 
-Code practice for scala, java and akka.
+Code practice for scala, kafka, java and akka.
